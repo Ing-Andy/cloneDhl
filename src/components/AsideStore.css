@@ -1,0 +1,51 @@
+.AsideStore{
+    width: 300px;
+    height: 100%;
+    z-index: 1000;
+    background-color: white;
+    color: black;
+    /* border: 1px solid #000; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 50px 0px 50px 50px; */
+    /* margin-top: 100px; */
+    /* position: fixed; */
+}
+.AsideStore:hover{
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 255, 5);
+}
+.AsideStore > *{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 40px;     */
+    padding-bottom: 10px;
+    height: 200px;
+    overflow-y: hidden;
+    /* border: 1px solid #000; */
+    padding-top: 5px;
+    scroll-margin-right: 20px;
+}
+.AsideStore fieldset{
+    width: 200px;
+    transition: box-shadow .8s ease-in-out;
+}
+.AsideStore fieldset:hover{
+    box-shadow: 0px 0px 05px 0px rgba(0, 0, 255,5);
+    border: none;
+}
+.AsideStore fieldset:hover legend{
+    color: blue;
+}
+.AsideStore p{
+    padding-left: 20px;
+    transition: color .5s ease-in-out,padding-left .5s ease-in-out;
+}
+.AsideStore p:hover{
+    padding-left: 30px;
+    color: blue;
+}
+.AsideStore fieldset legend{
+    background-color: white;
+}
+.AsideStore fieldset:hover legend{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 255, .5);
+}
