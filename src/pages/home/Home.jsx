@@ -3,7 +3,7 @@ import   './Home.css'
 import Header from "../../components/Header"
 import Affiche from "../../components/Affiche"
 import Block1 from "../../components/Block1"
-import { li } from "framer-motion/client"
+// import { li } from "framer-motion/client"
 import Footer from "../../components/Footer"
 
 
@@ -17,13 +17,13 @@ export default function Home(){
     ]
     return(
         <>
-            <header>
+            <header className="headerHome">
                 <Header />
                 <Affiche />
             </header>
-            <section className="section1">
+            <section className="section1home">
                 <div className="image">
-                    <img style={{height:'100%',overflowX:'hidden'}}  src="https://media.istockphoto.com/id/1124478886/de/foto/collage-von-gruppen-von-jungen-studenten-die-uniform-abgestuft-uniform-%C3%BCber-isolierten.jpg?s=612x612&w=0&k=20&c=X1we8TwQmM5eQga7urUM85uAgSmPLRSukqREyIHy7bc=" alt="" />
+                    <img style={{overflowX:'hidden'}}  src="https://media.istockphoto.com/id/1124478886/de/foto/collage-von-gruppen-von-jungen-studenten-die-uniform-abgestuft-uniform-%C3%BCber-isolierten.jpg?s=612x612&w=0&k=20&c=X1we8TwQmM5eQga7urUM85uAgSmPLRSukqREyIHy7bc=" alt="" />
                 </div>
                 <div className="divUl">
                     <ul className="ul">
